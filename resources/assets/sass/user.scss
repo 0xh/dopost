@@ -1,0 +1,28 @@
+
+h1.username {
+  margin-top: 0;
+}
+
+.wall {
+  h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  li {
+    div.avatar img {
+      width: 45px;
+      height: 45px;
+      border: dashed 1px;
+    }
+
+    font-size: 13px;
+  }
+
+}
+
+div.avatar img {
+  width: 150px;
+  height: 150px;
+  border: dashed;
+}

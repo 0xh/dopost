@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="https://apis.google.com/js/client.js"></script>
+    <script src="/js/bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/bundle.css">
+    <base href="/index.html" />
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <meta name="google-signin-client_id" content="767231447648-5mu0ca11hjun3v18m374025a37mbpthv.apps.googleusercontent.com">
+
+    <title>Dopost</title>
+</head>
+<body ng-app="app">
+
+<header ng-include="'/components/core/header/headerView.html'"></header>
+
+<div ng-view></div>
+
+<footer ng-include="'/components/core/footer/footerView.html'"></footer>
+
+</body>
+</html>
